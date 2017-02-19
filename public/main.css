@@ -1,0 +1,85 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url("Friz Quadrata Std Bold.otf");
+}
+
+img {
+  max-width:20%;
+  max-height:20%;
+  display: block;
+  margin: auto;
+}
+
+.animatedText {
+  /*animation: fadeAndScale .3s ease-in;
+  transform-origin: center bottom*/
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  text-shadow: 0 1px 0 black;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 13px;
+  padding-left: 20px;
+}
+
+@keyframes fadeAndScale {
+  from {
+    opacity: 0;
+    transform: scale3d(.75, .75, 1);
+  }
+  to {
+    opacity: 1;
+    transform: scale3d(1,1,1);
+  }
+}
+
+body {
+  font-family: 'myFirstFont';
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+    ),
+  url(http://na.leagueoflegends.com/sites/default/files/styles/scale_large/public/upload/art/teambuilder-wallpaper.jpg?itok=-H7_WlsZ);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+select {
+  font-family: 'myFirstFont';
+  color:gold;
+  background-color: black;
+  border: 4px solid #ccc;
+  width: 230px;
+  margin-left:120px;
+  font-size: 20px
+}
+
+h1 {
+ color: gold;
+ text-align: center;
+ text-shadow: 0 5px 0 black;
+ letter-spacing: 2px;  
+ background: rgb(0, 0, 0);
+ background: rgba(0, 0, 0, 0.3);
+ background-size: wrap-text;
+ padding: 5px; 
+}
+
+h2 {
+  color: gold;
+  text-align: center;
+  text-shadow: 0 5px 0 black;
+}
+
+/*p {
+  /*padding-left: 20px*/
+  /*margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  text-shadow: 0 1px 0 black;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 13px;
+  }*/
