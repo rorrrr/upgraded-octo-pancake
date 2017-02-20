@@ -10,31 +10,7 @@ img {
   margin: auto;
 }
 
-.animatedText {
-  /*animation: fadeAndScale .3s ease-in;
-  transform-origin: center bottom*/
-  margin-left: 20px;
-  margin-right: 20px;
-  color: white;
-  text-shadow: 0 1px 0 black;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.6);
-  font-size: 13px;
-  padding-left: 20px;
-}
-
-@keyframes fadeAndScale {
-  from {
-    opacity: 0;
-    transform: scale3d(.75, .75, 1);
-  }
-  to {
-    opacity: 1;
-    transform: scale3d(1,1,1);
-  }
-}
-
-body {
+/*body {
   font-family: 'myFirstFont';
   background:
   linear-gradient(
@@ -44,7 +20,7 @@ body {
   url(http://na.leagueoflegends.com/sites/default/files/styles/scale_large/public/upload/art/teambuilder-wallpaper.jpg?itok=-H7_WlsZ);
   background-size: cover;
   background-attachment: fixed;
-}
+}*/
 
 select {
   font-family: 'myFirstFont';
@@ -73,13 +49,13 @@ h2 {
   text-shadow: 0 5px 0 black;
 }
 
-/*p {
-  /*padding-left: 20px*/
-  /*margin-left: 20px;
+p {
+  padding-left: 20px;
+  margin-left: 20px;
   margin-right: 20px;
   color: white;
   text-shadow: 0 1px 0 black;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.6);
-  font-size: 13px;
-  }*/
+  font-size: 18px;
+}
